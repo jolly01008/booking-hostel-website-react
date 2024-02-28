@@ -10,7 +10,6 @@ import MainPage from "./pages/MainPage/MainPage.jsx";
 function App() {
   return (
     <div className="App">
-        <h5> TEST </h5>
         <BrowserRouter>
           <Routes>
             <Route path="api/signin" element={<SignInPage />} />
