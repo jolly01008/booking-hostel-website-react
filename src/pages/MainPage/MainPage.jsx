@@ -12,26 +12,6 @@ import { useState } from "react";
 // SCSS
 import styles from "./MainPage.module.scss";
 
-// const hostels = [
-//   {
-//     id: 1,
-//     name: 'Asss',
-//     address: 'aaaaaadfsdf',
-//     price: '1000'
-//   },
-//   {
-//     id: 2,
-//     name: 'B',
-//     address: 'bbbbbbbbisdfsdf',
-//     price: '2000'
-//   },
-//   {
-//     id: 3,
-//     name: 'Cxccc',
-//     address: 'ccccccoisdfsdf',
-//     price: '3000'
-//   }
-// ]
 export default function MainPage() {
   const [hostels, setHostels] = useState([]);
   console.log('hostels內容A:', hostels)
